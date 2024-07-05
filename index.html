@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-yellow-100 flex items-center justify-center min-h-screen">
+    <div class="bg-black p-6 rounded-lg shadow-lg w-96">
+
+
+        <h1 class="text-white text-3xl text-center font-bold">To do List</h1>
+        <div class="flex items-center justify-center gap-2 mt-5">
+            <input type="text" class="flex-grow p-2 rounded-l-lg">
+            <button class="bg-blue-500 text-white p-2 rounded-r-lg">Add</button>
+        </div>
+                <h2 class="text-2x1 text-center text-white mt-4">Task List</h2>
+                <div class="space-y-2 mt-4">
+                    <div class="flex items-center bg-gray-800 text-white p-2 rounded-lg">
+                        <input type="checkbox" class="mr-2">
+                        <span class="flex-grow">wash dishes</span>
+                        <button class="text-red-500 ml-2">Delete</button>
+                        <button class="text-red-500 ml-2">Edit</button>
+                    </div>
+
+                    <div class="flex items-center bg-gray-800 text-white p-2 rounded-lg">
+                        <input type="checkbox" class="mr-2" checked>
+                        <span class="flex-grow line-through opacity-50">edit resume</span>
+                        <button class="text-red-500 ml-2">Delete</button>
+                        <button class="text-red-500 ml-2">Edit</button>
+                    </div>
+
+                    <div class="flex items-center bg-gray-800 text-white p-2 rounded-lg">
+                        <input type="checkbox" class="mr-2">
+                        <span class="flex-grow">finish Codedex course</span>
+                        <button class="text-red-500 ml-2">Delete</button>
+                        <button class="text-red-500 ml-2">Edit</button>
+                    </div>
+                  </div>
+
+                  <hr class="my-3 border-[1px] border-[#2e60ea]" />
+
+
+                <div class="text-white mt-2 text-center">
+                    Completed: 1 | Uncompleted: 2
+                </div>
+            </?div>
+        </div>
+    </div>
+    
+</body>
+</html>
